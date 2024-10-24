@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top-color: white;
+    animation: animate 0.8s infinite linear;
+
+}
+@keyframes animate{
+    50%{
+        transform: rotate(360deg);
+    }
+}
